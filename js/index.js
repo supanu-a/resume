@@ -12,10 +12,10 @@ function parallax(e){
 
 $('.open').on('click', function(){
     
-  if($(this).hasClass('on')) {
-    $(this).removeClass('on')
-  } else {
+  if(!$(this).hasClass('on')) {
     $(this).addClass('on')
+  } else {
+    $(this).removeClass('on')
   }
 
 })
