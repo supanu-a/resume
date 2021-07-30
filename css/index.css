@@ -57,7 +57,7 @@ body { font:12px/1.6 arial; color:#555; background:#141C33 }
     position:fixed; top:0; right:0; 
     width:0%; overflow:hidden; 
     height:100%; 
-    background-color: #b08978;
+    background: linear-gradient(90deg, #141C33, rgb(112, 112, 112)) ;
     z-index:9999;
     transition:  all 0.5s;
 }
